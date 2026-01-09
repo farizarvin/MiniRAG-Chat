@@ -1,0 +1,32 @@
+Judul: Artificial Intelligence: A Modern Approach
+Penulis: Stuart Russell, Peter Norvig
+Genre: Kecerdasan Buatan, Komputasi
+Penerbit: Pearson Education, 2021
+Kata Kunci: AI, Machine Learning, Artificial Intelligence
+Isi:
+Artificial Intelligence (AI) adalah bidang ilmu komputer yang berfokus pada pembuatan sistem yang dapat berpikir, belajar, dan bertindak secara cerdas seperti manusia. Buku ini menjelaskan fondasi teoretis dan praktis dari AI secara mendalam.
+
+Beberapa konsep utama yang dibahas meliputi:
+
+1. Konsep Pencarian dan Pemecahan Masalah
+    Teknik seperti Breadth-First Search, Depth-First Search, dan A digunakan untuk menemukan solusi optimal dalam ruang kemungkinan.
+
+2. Representasi Pengetahuan dan Logika
+    AI menggunakan logika proposisional dan logika predikat untuk merepresentasikan fakta dan melakukan inferensi otomatis.
+
+3. Penalaran Probabilistik
+    Pendekatan Bayesian memungkinkan sistem mengelola ketidakpastian dan membuat keputusan berdasarkan probabilitas.
+
+4. Pembelajaran Mesin (Machine Learning)
+    Termasuk supervised learning, unsupervised learning, serta reinforcement learning yang memungkinkan sistem beradaptasi dari data.
+
+5. Persepsi dan Visi Komputer
+    Membahas cara mesin mengenali objek dan lingkungan melalui pengolahan citra digital.
+
+6. Pemrosesan Bahasa Alami (Natural Language Processing)
+    Teknik yang digunakan agar komputer dapat memahami, menganalisis, dan menghasilkan bahasa manusia.
+
+7. Etika dan Dampak Sosial AI
+    Menyoroti implikasi moral, privasi, serta tanggung jawab dalam pengembangan sistem cerdas.
+
+AI diterapkan di berbagai bidang seperti kendaraan otonom, asisten virtual, diagnosis medis berbasis data, dan sistem rekomendasi. Pendekatan modern AI memadukan teori kognitif dengan teknik pembelajaran berbasis data berskala besar.

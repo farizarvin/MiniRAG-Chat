@@ -1,0 +1,7 @@
+artificial-intelligence-modern-approach.txt: 183 tokens
+deep-learning-with-python.txt: 235 tokens
+hands-on-machine-learning.txt: 297 tokens
+introduction-to-machine-learning.txt: 310 tokens
+news-udi-multiple.txt: 536 tokens
+python-for-data-analysis.txt: 320 tokens
+struktur-data.txt: 343 tokens

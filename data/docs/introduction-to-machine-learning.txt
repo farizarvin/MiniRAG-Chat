@@ -1,0 +1,33 @@
+Judul: Introduction to Machine Learning
+Penulis: Ethem Alpaydin
+Genre: Pembelajaran Mesin, Teori Komputasi
+Penerbit: MIT Press, 2020
+Kata Kunci: Machine Learning, Neural Network, Algoritma
+
+Isi:
+Buku Introduction to Machine Learning karya Ethem Alpaydin merupakan salah satu referensi utama yang memberikan dasar teoritis dan pemahaman menyeluruh tentang prinsip-prinsip pembelajaran mesin. Buku ini menggabungkan teori, algoritma, dan aplikasi nyata untuk membantu pembaca memahami bagaimana mesin dapat belajar dari data dan membuat prediksi atau keputusan secara otomatis.
+
+Topik utama yang dibahas mencakup:
+
+1. Konsep Dasar Pembelajaran Mesin / Machine Learning  
+   Buku ini menjelaskan perbedaan antara supervised learning, unsupervised learning, dan reinforcement learning. Dijelaskan pula konsep penting seperti generalisasi, overfitting, underfitting, dan bias-variance tradeoff yang menjadi inti dari performa model.
+
+2. Model Linear dan Regresi  
+   Diperkenalkan berbagai model linear seperti linear regression untuk prediksi nilai kontinu dan logistic regression untuk klasifikasi biner. Pembaca belajar bagaimana model ini dioptimasi menggunakan metode gradient descent dan bagaimana menginterpretasikan bobot fitur untuk analisis data.
+
+3. Neural Networks dan Nonlinear Models  
+   Buku ini membahas arsitektur jaringan saraf tiruan (ANN), aktivasi non-linear seperti ReLU dan sigmoid, serta algoritma backpropagation. Dijelaskan juga bagaimana jaringan multi-layer dapat mempelajari representasi kompleks dari data.
+
+4. Kernel Methods dan Support Vector Machines (SVM)  
+   Alpaydin memberikan pembahasan mendalam tentang metode kernel yang memungkinkan model linear bekerja pada ruang fitur berdimensi tinggi. Konsep margin maximization dan kernel trick dijelaskan secara intuitif untuk memperluas penerapan SVM dalam klasifikasi non-linear.
+
+5. Clustering dan Unsupervised Learning  
+   Diperkenalkan berbagai metode klasterisasi seperti K-Means, hierarchical clustering, dan Gaussian Mixture Models (GMM). Buku ini menekankan bagaimana metode tersebut digunakan untuk menemukan pola tersembunyi tanpa label data.
+
+6. Evaluasi Model dan Validasi  
+   Pembahasan tentang metrik performa model seperti akurasi, precision, recall, F1-score, dan ROC-AUC. Ditekankan pula pentingnya cross-validation, regularization, dan model selection dalam memastikan generalisasi yang baik.
+
+7. Aplikasi dan Tren Modern  
+   Buku ini mengaitkan teori dengan aplikasi dunia nyata seperti pengenalan pola, prediksi pasar, sistem rekomendasi, dan pemrosesan bahasa alami (NLP). Selain itu, diperkenalkan arah penelitian terbaru termasuk deep learning, online learning, dan explainable AI (XAI).
+
+Ethem Alpaydin menulis dengan pendekatan yang sistematis dan analitis, menjadikan buku ini ideal bagi mahasiswa, peneliti, maupun profesional yang ingin memperdalam pemahaman teoritis tentang machine learning sekaligus memahami penerapannya dalam konteks modern.

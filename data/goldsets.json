@@ -1,0 +1,15 @@
+{
+    "python AND data": [
+        "deep-learning-with-python.txt",
+        "struktur-data.txt",
+        "python-for-data-analysis.txt"
+    ],
+    "AI OR machine": [
+        "introduction-to-machine-learning.txt",
+        "hands-on-machine-learning.txt",
+        "artificial-intelligence-modern-approach.txt"
+    ],
+    "NOT AI": [
+        "struktur-data.txt"
+    ]
+}
