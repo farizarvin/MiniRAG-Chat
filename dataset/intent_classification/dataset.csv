@@ -1,0 +1,351 @@
+pertanyaan,intent
+kapan batas akhir pembayaran kuliah,ADMINISTRASI_KEUANGAN
+berapa biaya kuliah per semester,ADMINISTRASI_KEUANGAN
+bagaimana cara bayar ukt,ADMINISTRASI_KEUANGAN
+dimana tempat bayar registrasi,ADMINISTRASI_KEUANGAN
+saya mau tanya biaya pendaftaran,ADMINISTRASI_KEUANGAN
+pembayaran kuliah dimana,ADMINISTRASI_KEUANGAN
+cara transfer uang kuliah,ADMINISTRASI_KEUANGAN
+biaya sks berapa ya,ADMINISTRASI_KEUANGAN
+tagihan kuliah saya berapa,ADMINISTRASI_KEUANGAN
+kapan deadline bayar ukt,ADMINISTRASI_KEUANGAN
+ukt saya belum terbayar bagaimana,ADMINISTRASI_KEUANGAN
+cara cicil pembayaran kuliah,ADMINISTRASI_KEUANGAN
+biaya registrasi ulang berapa,ADMINISTRASI_KEUANGAN
+saya telat bayar kuliah gimana,ADMINISTRASI_KEUANGAN
+nomor rekening pembayaran udinus,ADMINISTRASI_KEUANGAN
+biaya herregistrasi berapa,ADMINISTRASI_KEUANGAN
+cara mengecek tagihan kuliah,ADMINISTRASI_KEUANGAN
+pembayaran bisa pakai kartu kredit,ADMINISTRASI_KEUANGAN
+bukti pembayaran hilang bagaimana,ADMINISTRASI_KEUANGAN
+cara cetak kwitansi pembayaran,ADMINISTRASI_KEUANGAN
+denda telat bayar kuliah berapa,ADMINISTRASI_KEUANGAN
+ukt bisa dicicil tidak,ADMINISTRASI_KEUANGAN
+pembayaran lewat bank apa saja,ADMINISTRASI_KEUANGAN
+cara bayar kuliah online,ADMINISTRASI_KEUANGAN
+virtual account pembayaran dimana,ADMINISTRASI_KEUANGAN
+biaya kuliah naik tidak,ADMINISTRASI_KEUANGAN
+cara mengajukan keringanan ukt,ADMINISTRASI_KEUANGAN
+persyaratan keringanan biaya kuliah,ADMINISTRASI_KEUANGAN
+potongan biaya untuk mahasiswa berprestasi,ADMINISTRASI_KEUANGAN
+biaya wisuda berapa,ADMINISTRASI_KEUANGAN
+cara bayar skripsi,ADMINISTRASI_KEUANGAN
+biaya praktikum berapa,ADMINISTRASI_KEUANGAN
+biaya kmb berapa,ADMINISTRASI_KEUANGAN
+pembayaran bisa diangsur,ADMINISTRASI_KEUANGAN
+cara lapor sudah bayar kuliah,ADMINISTRASI_KEUANGAN
+tagihan kuliah tidak muncul,ADMINISTRASI_KEUANGAN
+pembayaran lewat atm bisa tidak,ADMINISTRASI_KEUANGAN
+nomor va pembayaran kuliah,ADMINISTRASI_KEUANGAN
+cara mendapatkan slip pembayaran,ADMINISTRASI_KEUANGAN
+biaya semester pendek,ADMINISTRASI_KEUANGAN
+ukt kelompok berapa saja,ADMINISTRASI_KEUANGAN
+cara mengurus pembayaran tertunda,ADMINISTRASI_KEUANGAN
+biaya lab komputer per semester,ADMINISTRASI_KEUANGAN
+pembayaran ditolak kenapa,ADMINISTRASI_KEUANGAN
+cara konfirmasi pembayaran manual,ADMINISTRASI_KEUANGAN
+biaya perpanjangan studi,ADMINISTRASI_KEUANGAN
+saya sudah bayar tapi belum tercatat,ADMINISTRASI_KEUANGAN
+cara komplain tagihan kuliah,ADMINISTRASI_KEUANGAN
+pembayaran untuk semester depan kapan,ADMINISTRASI_KEUANGAN
+biaya cuti kuliah,ADMINISTRASI_KEUANGAN
+bagaimana cara isi krs,AKADEMIK_KRS
+kapan jadwal pengisian krs,AKADEMIK_KRS
+krs saya error tidak bisa dibuka,AKADEMIK_KRS
+cara mengubah mata kuliah di krs,AKADEMIK_KRS
+berapa sks maksimal per semester,AKADEMIK_KRS
+jadwal kuliah semester ini kapan,AKADEMIK_KRS
+cara drop mata kuliah,AKADEMIK_KRS
+mata kuliah yang tersedia apa saja,AKADEMIK_KRS
+siadin tidak bisa diakses untuk krs,AKADEMIK_KRS
+saya mau tambah sks,AKADEMIK_KRS
+cara mengisi krs online,AKADEMIK_KRS
+krs bisa diubah sampai kapan,AKADEMIK_KRS
+mata kuliah wajib semester ini,AKADEMIK_KRS
+batas minimal sks berapa,AKADEMIK_KRS
+jadwal ujian akhir semester kapan,AKADEMIK_KRS
+cara lihat nilai semester lalu,AKADEMIK_KRS
+ipk saya berapa,AKADEMIK_KRS
+transkrip nilai dimana,AKADEMIK_KRS
+cara print krs,AKADEMIK_KRS
+mata kuliah prasyarat apa,AKADEMIK_KRS
+dosen pengampu mata kuliah siapa,AKADEMIK_KRS
+ruang kuliah di gedung mana,AKADEMIK_KRS
+jam kuliah bentrok bagaimana,AKADEMIK_KRS
+cara mengajukan perubahan krs,AKADEMIK_KRS
+deadline krs kapan,AKADEMIK_KRS
+krs sudah ditutup masih bisa diubah,AKADEMIK_KRS
+cara batalkan mata kuliah,AKADEMIK_KRS
+sks yang sudah diambil berapa,AKADEMIK_KRS
+mata kuliah pilihan apa saja,AKADEMIK_KRS
+jadwal kuliah pengganti,AKADEMIK_KRS
+cara cek kehadiran kuliah,AKADEMIK_KRS
+absensi minimal berapa persen,AKADEMIK_KRS
+nilai uts belum keluar,AKADEMIK_KRS
+cara komplain nilai,AKADEMIK_KRS
+jadwal kuliah libur atau tidak,AKADEMIK_KRS
+mata kuliah bisa diulang tidak,AKADEMIK_KRS
+cara ambil matakuliah semester atas,AKADEMIK_KRS
+krs khusus bagaimana caranya,AKADEMIK_KRS
+saya mau cuti kuliah,AKADEMIK_KRS
+cara aktif kembali setelah cuti,AKADEMIK_KRS
+mata kuliah mengulang,AKADEMIK_KRS
+kelas penuh tidak bisa krs,AKADEMIK_KRS
+cara pindah kelas kuliah,AKADEMIK_KRS
+jadwal bimbingan akademik,AKADEMIK_KRS
+kartu hasil studi dimana,AKADEMIK_KRS
+cara cetak khs,AKADEMIK_KRS
+nilai d harus mengulang,AKADEMIK_KRS
+sks kumulatif saya,AKADEMIK_KRS
+cara lihat jadwal ujian,AKADEMIK_KRS
+ruang ujian dimana,AKADEMIK_KRS
+siapa dosen wali saya,INFORMASI_DOSEN
+bagaimana cara konsultasi dengan dosen,INFORMASI_DOSEN
+jadwal bimbingan dosen kapan,INFORMASI_DOSEN
+email dosen informatika,INFORMASI_DOSEN
+cara menghubungi dosen wali,INFORMASI_DOSEN
+dosen pengajar basis data siapa,INFORMASI_DOSEN
+ruangan dosen di gedung mana,INFORMASI_DOSEN
+jam konsultasi pak budi,INFORMASI_DOSEN
+nomor telepon dosen,INFORMASI_DOSEN
+dosen yang mengajar pemrograman,INFORMASI_DOSEN
+dimana ruang dosen pembimbing,INFORMASI_DOSEN
+dosen wali fakultas teknik,INFORMASI_DOSEN
+cara buat janji dengan dosen,INFORMASI_DOSEN
+jadwal dosen hari ini,INFORMASI_DOSEN
+dosen pembimbing skripsi siapa,INFORMASI_DOSEN
+cara mengganti dosen pembimbing,INFORMASI_DOSEN
+dosen tidak masuk kuliah,INFORMASI_DOSEN
+cara menghubungi dosen lewat email,INFORMASI_DOSEN
+jam kerja dosen,INFORMASI_DOSEN
+dosen ada di kampus tidak hari ini,INFORMASI_DOSEN
+cara mengurus persetujuan dosen,INFORMASI_DOSEN
+ttd dosen wali untuk krs,INFORMASI_DOSEN
+dosen pembimbing pkl,INFORMASI_DOSEN
+nomor whatsapp dosen,INFORMASI_DOSEN
+dosen yang bisa dihubungi sore,INFORMASI_DOSEN
+ruang dosen gedung e,INFORMASI_DOSEN
+foto dosen ada dimana,INFORMASI_DOSEN
+profil dosen di website,INFORMASI_DOSEN
+dosen jurusan informatika,INFORMASI_DOSEN
+cara komplain ke dosen,INFORMASI_DOSEN
+dosen tidak membalas email,INFORMASI_DOSEN
+kantor dosen tutup jam berapa,INFORMASI_DOSEN
+cara cari dosen pengganti,INFORMASI_DOSEN
+dosen lagi ada dimana,INFORMASI_DOSEN
+jadwal mengajar dosen,INFORMASI_DOSEN
+dosen bisa dihubungi kapan,INFORMASI_DOSEN
+cara minta tanda tangan dosen,INFORMASI_DOSEN
+form persetujuan dosen,INFORMASI_DOSEN
+dosen pembimbing tugas akhir,INFORMASI_DOSEN
+kuota bimbingan dosen penuh,INFORMASI_DOSEN
+cara ganti topik skripsi dengan dosen,INFORMASI_DOSEN
+dosen tidak setuju judul skripsi,INFORMASI_DOSEN
+jadwal seminar proposal dengan dosen,INFORMASI_DOSEN
+dosen penguji siapa saja,INFORMASI_DOSEN
+cara konsultasi online dengan dosen,INFORMASI_DOSEN
+dosen zoom meeting,INFORMASI_DOSEN
+link meeting dosen,INFORMASI_DOSEN
+dosen cancel bimbingan,INFORMASI_DOSEN
+cara reschedule bimbingan,INFORMASI_DOSEN
+dosen pembimbing dua siapa,INFORMASI_DOSEN
+apakah ada beasiswa prestasi,BEASISWA
+syarat beasiswa apa saja,BEASISWA
+cara daftar beasiswa,BEASISWA
+kapan pendaftaran beasiswa dibuka,BEASISWA
+beasiswa untuk mahasiswa baru,BEASISWA
+jenis beasiswa yang tersedia,BEASISWA
+beasiswa kurang mampu,BEASISWA
+persyaratan ipk untuk beasiswa,BEASISWA
+formulir beasiswa dimana,BEASISWA
+beasiswa luar negeri ada tidak,BEASISWA
+ada beasiswa untuk semester ini tidak,BEASISWA
+beasiswa full apakah ada,BEASISWA
+beasiswa bidikmisi masih ada,BEASISWA
+cara mencari beasiswa,BEASISWA
+beasiswa dari perusahaan,BEASISWA
+beasiswa pertukaran pelajar,BEASISWA
+cara daftar beasiswa online,BEASISWA
+pengumuman beasiswa kapan,BEASISWA
+saya lolos beasiswa apa tidak,BEASISWA
+cara cek status beasiswa,BEASISWA
+beasiswa bisa dicabut,BEASISWA
+kewajiban penerima beasiswa,BEASISWA
+beasiswa dikti,BEASISWA
+beasiswa bank indonesia,BEASISWA
+beasiswa tanoto foundation,BEASISWA
+cara melamar beasiswa luar negeri,BEASISWA
+dokumen beasiswa apa saja,BEASISWA
+surat keterangan tidak mampu untuk beasiswa,BEASISWA
+beasiswa untuk mahasiswa aktif,BEASISWA
+beasiswa tugas akhir,BEASISWA
+beasiswa penelitian,BEASISWA
+cara perpanjang beasiswa,BEASISWA
+beasiswa semester depan,BEASISWA
+ipk minimal beasiswa berapa,BEASISWA
+beasiswa sudah cair belum,BEASISWA
+pencairan beasiswa kapan,BEASISWA
+nomor rekening untuk beasiswa,BEASISWA
+beasiswa tidak cair cair,BEASISWA
+cara komplain beasiswa,BEASISWA
+beasiswa harus dikembalikan,BEASISWA
+syarat mempertahankan beasiswa,BEASISWA
+beasiswa untuk organisasi,BEASISWA
+beasiswa atlet,BEASISWA
+beasiswa hafiz quran,BEASISWA
+beasiswa disabilitas,BEASISWA
+cara mendapatkan informasi beasiswa baru,BEASISWA
+email info beasiswa,BEASISWA
+beasiswa parsial,BEASISWA
+potongan ukt dari beasiswa,BEASISWA
+beasiswa swasta,BEASISWA
+bagaimana cara mendaftar di udinus,PENDAFTARAN_PMB
+berapa biaya pendaftaran,PENDAFTARAN_PMB
+kapan pendaftaran mahasiswa baru,PENDAFTARAN_PMB
+jalur masuk apa saja yang ada,PENDAFTARAN_PMB
+syarat masuk udinus,PENDAFTARAN_PMB
+cara daftar online,PENDAFTARAN_PMB
+website pendaftaran dimana,PENDAFTARAN_PMB
+prodi apa saja yang tersedia,PENDAFTARAN_PMB
+kapan tes masuk dilaksanakan,PENDAFTARAN_PMB
+dokumen apa saja yang perlu disiapkan,PENDAFTARAN_PMB
+berapa biaya pendaftaran mahasiswa baru,PENDAFTARAN_PMB
+pendaftaran udinus dibuka kapan,PENDAFTARAN_PMB
+cara daftar jalur prestasi,PENDAFTARAN_PMB
+tes masuk udinus apa saja,PENDAFTARAN_PMB
+pendaftaran online pmb udinus,PENDAFTARAN_PMB
+jalur snbp udinus,PENDAFTARAN_PMB
+jalur snbt udinus,PENDAFTARAN_PMB
+jalur mandiri udinus,PENDAFTARAN_PMB
+passing grade udinus,PENDAFTARAN_PMB
+akreditasi prodi udinus,PENDAFTARAN_PMB
+fakultas di udinus,PENDAFTARAN_PMB
+jurusan teknik informatika,PENDAFTARAN_PMB
+cara daftar beasiswa pendaftaran,PENDAFTARAN_PMB
+formulir pendaftaran,PENDAFTARAN_PMB
+cara upload dokumen pendaftaran,PENDAFTARAN_PMB
+foto untuk pendaftaran ukuran berapa,PENDAFTARAN_PMB
+tes kesehatan ada tidak,PENDAFTARAN_PMB
+wawancara masuk udinus,PENDAFTARAN_PMB
+pengumuman kelulusan kapan,PENDAFTARAN_PMB
+cara cek hasil tes,PENDAFTARAN_PMB
+saya diterima di prodi apa,PENDAFTARAN_PMB
+cara daftar ulang mahasiswa baru,PENDAFTARAN_PMB
+registrasi mahasiswa baru,PENDAFTARAN_PMB
+ospek kapan dilaksanakan,PENDAFTARAN_PMB
+biaya ospek,PENDAFTARAN_PMB
+seragam ospek,PENDAFTARAN_PMB
+jadwal pendaftaran gelombang 2,PENDAFTARAN_PMB
+kuota penerimaan mahasiswa,PENDAFTARAN_PMB
+prodi yang sepi peminat,PENDAFTARAN_PMB
+cara pindah prodi saat pendaftaran,PENDAFTARAN_PMB
+saya salah pilih jurusan,PENDAFTARAN_PMB
+syarat pindah kampus ke udinus,PENDAFTARAN_PMB
+transfer mahasiswa dari kampus lain,PENDAFTARAN_PMB
+cara daftar kelas karyawan,PENDAFTARAN_PMB
+kuliah malam ada tidak,PENDAFTARAN_PMB
+sistem kuliah online atau offline,PENDAFTARAN_PMB
+kampus udinus ada berapa,PENDAFTARAN_PMB
+lokasi kampus udinus,PENDAFTARAN_PMB
+virtual tour kampus,PENDAFTARAN_PMB
+open house udinus kapan,PENDAFTARAN_PMB
+dimana lokasi perpustakaan,FASILITAS_KAMPUS
+jam buka perpustakaan,FASILITAS_KAMPUS
+fasilitas apa saja di kampus,FASILITAS_KAMPUS
+ada wifi gratis tidak,FASILITAS_KAMPUS
+lokasi laboratorium komputer,FASILITAS_KAMPUS
+kantin kampus dimana,FASILITAS_KAMPUS
+parkir motor dimana,FASILITAS_KAMPUS
+ruang kelas gedung e lantai berapa,FASILITAS_KAMPUS
+ada musholla tidak di kampus,FASILITAS_KAMPUS
+fasilitas olahraga apa saja,FASILITAS_KAMPUS
+fasilitas lab komputer,FASILITAS_KAMPUS
+lokasi gedung rektorat,FASILITAS_KAMPUS
+ruang mahasiswa dimana,FASILITAS_KAMPUS
+lapangan futsal ada tidak,FASILITAS_KAMPUS
+klinik kesehatan kampus,FASILITAS_KAMPUS
+lokasi toilet,FASILITAS_KAMPUS
+atm di kampus ada dimana,FASILITAS_KAMPUS
+fotocopy terdekat dimana,FASILITAS_KAMPUS
+tempat print murah,FASILITAS_KAMPUS
+kantor kemahasiswaan,FASILITAS_KAMPUS
+sekretariat bem,FASILITAS_KAMPUS
+ruang organisasi,FASILITAS_KAMPUS
+aula untuk acara,FASILITAS_KAMPUS
+gedung serba guna,FASILITAS_KAMPUS
+studio musik,FASILITAS_KAMPUS
+ruang fitness,FASILITAS_KAMPUS
+kolam renang ada tidak,FASILITAS_KAMPUS
+lapangan basket,FASILITAS_KAMPUS
+lapangan voli,FASILITAS_KAMPUS
+gazebo untuk diskusi,FASILITAS_KAMPUS
+coworking space mahasiswa,FASILITAS_KAMPUS
+ruang baca selain perpustakaan,FASILITAS_KAMPUS
+akses lift gedung,FASILITAS_KAMPUS
+fasilitas difabel,FASILITAS_KAMPUS
+tempat parkir mobil,FASILITAS_KAMPUS
+sistem parkir berbayar atau gratis,FASILITAS_KAMPUS
+kantin buka sampai jam berapa,FASILITAS_KAMPUS
+minimarket di kampus,FASILITAS_KAMPUS
+cafe di kampus,FASILITAS_KAMPUS
+tempat makan murah sekitar kampus,FASILITAS_KAMPUS
+warung makan dekat kampus,FASILITAS_KAMPUS
+kos kosan dekat kampus,FASILITAS_KAMPUS
+asrama mahasiswa ada tidak,FASILITAS_KAMPUS
+bus kampus ada,FASILITAS_KAMPUS
+shuttle bus jadwal,FASILITAS_KAMPUS
+halte bus terdekat,FASILITAS_KAMPUS
+stasiun kereta dari kampus,FASILITAS_KAMPUS
+akses transportasi umum,FASILITAS_KAMPUS
+hotspot wifi kampus,FASILITAS_KAMPUS
+password wifi kampus,FASILITAS_KAMPUS
+lupa password siadin,TEKNIS_AKUN
+cara reset password,TEKNIS_AKUN
+lupa sandi akun mahasiswa,TEKNIS_AKUN
+akun terkunci bagaimana,TEKNIS_AKUN
+tidak bisa login siadin,TEKNIS_AKUN
+cara ganti password email,TEKNIS_AKUN
+aktivasi akun mahasiswa baru,TEKNIS_AKUN
+username saya apa,TEKNIS_AKUN
+lupa nim untuk login,TEKNIS_AKUN
+password salah terus,TEKNIS_AKUN
+cara reset password email mahasiswa,TEKNIS_AKUN
+akun diblokir kenapa,TEKNIS_AKUN
+cara mengaktifkan akun,TEKNIS_AKUN
+email aktivasi tidak masuk,TEKNIS_AKUN
+link reset password expired,TEKNIS_AKUN
+cara buat password baru,TEKNIS_AKUN
+lupa jawaban keamanan akun,TEKNIS_AKUN
+akun saya diretas bagaimana,TEKNIS_AKUN
+cara mengganti email akun,TEKNIS_AKUN
+verifikasi email gagal,TEKNIS_AKUN
+token aktivasi tidak valid,TEKNIS_AKUN
+cara mengubah data akun,TEKNIS_AKUN
+profile akun tidak bisa diupdate,TEKNIS_AKUN
+foto profil tidak bisa diupload,TEKNIS_AKUN
+session expired terus,TEKNIS_AKUN
+cara logout dari semua device,TEKNIS_AKUN
+akun login di tempat lain,TEKNIS_AKUN
+keamanan akun mahasiswa,TEKNIS_AKUN
+cara mengamankan akun,TEKNIS_AKUN
+two factor authentication,TEKNIS_AKUN
+verifikasi dua langkah,TEKNIS_AKUN
+kode otp tidak masuk,TEKNIS_AKUN
+nomor hp untuk reset password,TEKNIS_AKUN
+email recovery akun,TEKNIS_AKUN
+cara menghubungi admin sistem,TEKNIS_AKUN
+siadin error saat login,TEKNIS_AKUN
+captcha tidak muncul,TEKNIS_AKUN
+browser tidak support login,TEKNIS_AKUN
+clear cache untuk login,TEKNIS_AKUN
+cookies harus diaktifkan,TEKNIS_AKUN
+javascript error saat login,TEKNIS_AKUN
+page not found saat akses akun,TEKNIS_AKUN
+maintenance sistem kapan selesai,TEKNIS_AKUN
+server down tidak bisa login,TEKNIS_AKUN
+koneksi timeout saat login,TEKNIS_AKUN
+ssl certificate error,TEKNIS_AKUN
+akun lama tidak bisa diakses,TEKNIS_AKUN
+migrasi akun sistem baru,TEKNIS_AKUN
+cara sinkronisasi akun,TEKNIS_AKUN
+multiple account diperbolehkan tidak,TEKNIS_AKUN
