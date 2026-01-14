@@ -1,6 +1,20 @@
 Implementasi lengkap STKI dengan K-NN, K-Means, Feature Selection, Summarization, dan Sentiment Analysis menggunakan IndoBERT.
 
-## 📂 Struktur Folder Final
+## 📸 Screenshots
+
+### KampusBot AI - Chatbot Interface
+![Chatbot Demo](screenshots/chatbot_demo.png)
+
+**Features:**
+- 🤖 **Groq Llama 3.3 70B** - Natural Indonesian responses with RAG
+- 🎯 **K-NN Intent Classification** - Auto topic detection (PENDAFTARAN_PMB)
+- 😊 **Sentiment Analysis** - Real-time emotion detection (NEUTRAL 100%)
+- 🔑 **Keyword Extraction** - Feature-based keywords
+- 📚 **Document Clustering** - K-Means for context retrieval
+
+---
+
+##  Struktur Folder Final
 
 ```
 sistek/
