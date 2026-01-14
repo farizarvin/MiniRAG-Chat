@@ -35,6 +35,12 @@ try:
 except ImportError:
     predict_sentiment = None
 
+# Import Groq LLM Service
+try:
+    from .groq_service import groq_service
+except ImportError:
+    groq_service = None
+
 # ==============================================================================
 # 1. FUNGSI HELPER (SCRAPER & LAINNYA)
 # ==============================================================================
@@ -139,6 +145,15 @@ def get_response(request):
             use_summarization = data.get('use_summarization', True)  # Default: enabled
             response_text = ""
             
+            # --- DETECT USER SENTIMENT EARLY ---
+            user_sentiment = ""
+            if predict_sentiment:
+                try:
+                    sentiment, confidence = predict_sentiment(user_input)
+                    user_sentiment = sentiment  # positive, negative, neutral
+                except:
+                    user_sentiment = ""
+            
             # --- MAPPING INTENT KE CLUSTER ID ---
             # Sesuaikan angka ini dengan hasil training (output latih_dari_csv.py)
             INTENT_TO_CLUSTER = {
@@ -235,28 +250,60 @@ def get_response(request):
                     # Ambil dokumen dari variabel global yang di-import
                     docs = data_dokumen.get(target_cluster, [])
 
-                    response_text = f"<b>[Topik: {niat}]</b><br>"
-                    if docs:
-                        # Cek apakah user ingin ringkasan atau dokumen penuh
-                        if use_summarization and ringkas_dokumen:
-                            # Ringkas dokumen otomatis dengan ekstraksi fitur
-                            ringkasan, features = ringkas_dokumen(docs, max_sentences=3, return_features=True)
-                            
-                            # Tampilkan kata kunci yang terdeteksi (Feature Based)
+                    # --- GROQ LLM INTEGRATION ---
+                    if groq_service and groq_service.client:
+                        # Use Groq to generate human-like response with sentiment awareness
+                        groq_response = groq_service.generate_contextual_response(
+                            user_query=user_input,
+                            clustered_docs=docs,
+                            intent=niat,
+                            user_sentiment=user_sentiment
+                        )
+                        
+                        response_text = f"<b>[Topik: {niat}]</b><br><br>"
+                        response_text += f"🤖 {groq_response}"
+                        
+                        # Add feature keywords if available
+                        if use_summarization and ringkas_dokumen and docs:
+                            _, features = ringkas_dokumen(docs, max_sentences=3, return_features=True)
                             if features:
                                 top_keywords = ", ".join([f.replace("_", " ") for f, score in features[:5]])
-                                response_text += f"<i>🔑 Kata kunci terdeteksi: {top_keywords}</i><br><br>"
-                            
-                            response_text += f"<b>📄 Ringkasan Informasi (3 Kalimat Utama):</b><br>{ringkasan}"
-                        else:
-                            # Fallback: tampilkan dokumen lengkap tanpa summarize
-                            response_text += "<b>📚 Informasi Lengkap:</b><br><br>"
-                            for d in docs[:5]:
-                                response_text += f"📘 {d}<br><br>"
+                                response_text += f"<br><br><i>🔑 Kata kunci: {top_keywords}</i>"
+                    
                     else:
-                        response_text += "Belum ada dokumen untuk topik ini di database."
+                        # Fallback to original method if Groq not available
+                        response_text = f"<b>[Topik: {niat}]</b><br>"
+                        if docs:
+                            # Cek apakah user ingin ringkasan atau dokumen penuh
+                            if use_summarization and ringkas_dokumen:
+                                # Ringkas dokumen otomatis dengan ekstraksi fitur
+                                ringkasan, features = ringkas_dokumen(docs, max_sentences=3, return_features=True)
+                                
+                                # Tampilkan kata kunci yang terdeteksi (Feature Based)
+                                if features:
+                                    top_keywords = ", ".join([f.replace("_", " ") for f, score in features[:5]])
+                                    response_text += f"<i>🔑 Kata kunci terdeteksi: {top_keywords}</i><br><br>"
+                                
+                                response_text += f"<b>📄 Ringkasan Informasi (3 Kalimat Utama):</b><br>{ringkasan}"
+                            else:
+                                # Fallback: tampilkan dokumen lengkap tanpa summarize
+                                response_text += "<b>📚 Informasi Lengkap:</b><br><br>"
+                                for d in docs[:5]:
+                                    response_text += f"📘 {d}<br><br>"
+                        else:
+                            response_text += "Belum ada dokumen untuk topik ini di database."
                 else:
-                    response_text = f"Maaf, saya kurang paham. (Kategori terdeteksi: {niat})"
+                    # Unknown intent - try Groq for general response with sentiment awareness
+                    if groq_service and groq_service.client:
+                        groq_response = groq_service.generate_response(
+                            user_query=user_input,
+                            context="",
+                            intent="Umum",
+                            user_sentiment=user_sentiment
+                        )
+                        response_text = f"🤖 {groq_response}"
+                    else:
+                        response_text = f"Maaf, saya kurang paham. (Kategori terdeteksi: {niat})"
 
             time.sleep(0.5) # Efek mengetik alami
             return JsonResponse({'response': response_text})

@@ -16,6 +16,10 @@ transformers>=4.30.0
 huggingface_hub>=1.0.0
 safetensors==0.7.0
 
+# Groq LLM API
+groq>=0.4.0
+python-dotenv==1.1.0
+
 # Indonesian NLP
 Sastrawi==1.0.1
 nltk==3.9.2
