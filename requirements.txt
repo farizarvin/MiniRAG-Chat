@@ -9,3 +9,7 @@ joblib
 scikit-learn
 yellowbrick
 sastrawi
+django
+spacy
+rasa
+transformers
