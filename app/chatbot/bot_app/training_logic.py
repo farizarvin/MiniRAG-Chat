@@ -5,12 +5,15 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
 # Setup Path agar dinamis
-# BASE_DIR saat ini adalah .../sistek/chatbot
+# __file__ = .../sistek/app/chatbot/bot_app/training_logic.py
+# BASE_DIR = .../sistek/app/chatbot/
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
-# Kita perlu naik satu level lagi ke .../sistek/dataset/...
-ROOT_DIR = os.path.dirname(BASE_DIR)
 
-CSV_PATH = os.path.join(ROOT_DIR, 'dataset', 'clustering_dokumen', 'dataset.csv')
+# Naik 2 level lagi dari chatbot/ ke sistek/ (project root)
+# ROOT_DIR = .../sistek/
+ROOT_DIR = os.path.dirname(os.path.dirname(BASE_DIR))
+
+CSV_PATH = os.path.join(ROOT_DIR, 'data', 'ir_docs', 'dataset.csv')
 MODEL_DIR = os.path.join(BASE_DIR, 'bot_app', 'model', 'model_clustering_dokumen')
 
 def latih_model_sekarang():
