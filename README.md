@@ -1,6 +1,21 @@
 Implementasi lengkap STKI dengan K-NN, K-Means, Feature Selection, Summarization, dan Sentiment Analysis menggunakan IndoBERT.
 
-## 📂 Struktur Folder Final
+## � Screenshots
+
+### KampusBot AI - Interface Demo
+![Chatbot PMB Demo](screenshots/chatbot_pmb_demo.png)
+
+**Features Shown:**
+- 🤖 **Groq Llama 3.3 70B** - Natural Indonesian responses about PMB (Pendaftaran Mahasiswa Baru)
+- 🎯 **K-NN Intent Classification** - Auto-detected topic: PENDAFTARAN_PMB
+- 😊 **Sentiment Analysis** - Real-time emotion detection (NEUTRAL 100% confidence)
+- 🔑 **Feature-Based Keywords** - Extracted keywords: biaya, mahasiswa, beasiswa, baru, pendidikan
+- 📚 **RAG Context** - Response generated from clustered documents
+- ⚙️ **Toggle Settings** - Peringkasan Otomatis (ON) & Analisa Sentiment Auto (ON)
+
+---
+
+## �📂 Struktur Folder Final
 
 ```
 sistek/
