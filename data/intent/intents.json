@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "tag": "PENDAFTARAN",
+      "patterns": [
+        "cara daftar kuliah",
+        "bagaimana pendaftaran mahasiswa baru",
+        "prosedur daftar kampus",
+        "info pendaftaran",
+        "daftar udinus"
+      ],
+      "responses": [
+        "Pendaftaran mahasiswa baru dapat dilakukan melalui website resmi atau datang langsung ke kampus."
+      ]
+    },
+    {
+      "tag": "KEUANGAN",
+      "patterns": [
+        "cara bayar ukt",
+        "pembayaran kuliah",
+        "bayar spp",
+        "biaya kuliah",
+        "uang semester"
+      ],
+      "responses": [
+        "Pembayaran UKT dapat dilakukan melalui bank BNI, BRI, atau Mandiri."
+      ]
+    },
+    {
+      "tag": "AKADEMIK",
+      "patterns": [
+        "jadwal kuliah",
+        "lihat krs",
+        "isi krs",
+        "mata kuliah",
+        "jadwal ujian"
+      ],
+      "responses": [
+        "Jadwal kuliah dan KRS dapat diakses melalui portal akademik mahasiswa."
+      ]
+    },
+    {
+      "tag": "BEASISWA",
+      "patterns": [
+        "info beasiswa",
+        "beasiswa prestasi",
+        "cara daftar beasiswa",
+        "beasiswa kampus"
+      ],
+      "responses": [
+        "Informasi beasiswa dapat dilihat di website kemahasiswaan atau hubungi bagian beasiswa."
+      ]
+    },
+    {
+      "tag": "FASILITAS",
+      "patterns": [
+        "fasilitas kampus",
+        "perpustakaan",
+        "lab komputer",
+        "wifi kampus"
+      ],
+      "responses": [
+        "Kampus memiliki berbagai fasilitas lengkap termasuk perpustakaan, lab, dan wifi gratis."
+      ]
+    }
+  ]
+}

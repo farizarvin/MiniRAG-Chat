@@ -1,15 +1,38 @@
-numpy
-scipy
-scikit-learn
-matplotlib
-pandas
-sastrawi
-nltk
-joblib
-scikit-learn
-yellowbrick
-sastrawi
-django
-spacy
-rasa
-transformers
+# STKI UAS Project Requirements
+# Python 3.10+
+
+# Core Data Science
+numpy==2.4.1
+pandas==2.3.3
+scipy==1.17.0
+
+# Machine Learning
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# Deep Learning & NLP
+torch==2.9.1
+transformers>=4.30.0
+huggingface_hub>=1.0.0
+safetensors==0.7.0
+
+# Indonesian NLP
+Sastrawi==1.0.1
+nltk==3.9.2
+
+# Web Framework
+Django==6.0.1
+beautifulsoup4==4.14.3
+requests==2.32.5
+
+# Utilities
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tqdm==4.67.1
+
+# Visualization (optional, for notebooks)
+matplotlib==3.10.8
+yellowbrick==1.5
+
+# Development
+regex==2025.11.3
