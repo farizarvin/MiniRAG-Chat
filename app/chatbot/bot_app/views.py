@@ -178,6 +178,29 @@ def get_response(request):
             def _is_profanity(text):
                 profane_words = ["anjing", "babi", "kontol", "memek", "bangsat", "asu", "jancok", "fuck", "shit"] # Add more as needed
                 return any(word in text.lower() for word in profane_words)
+            
+            def _is_non_academic(text):
+                """Check if question contains non-academic keywords"""
+                non_academic_keywords = [
+                    # Cuaca
+                    "cuaca", "panas", "hujan", "mendung", "cerah", "dingin", "gerimis",
+                    # Olahraga
+                    "sepak bola", "basket", "badminton", "renang", "futsal", "voli",
+                    # Hiburan
+                    "film", "musik", "konser", "game", "main game", "nonton",
+                    # Politik
+                    "presiden", "menteri", "pemilu", "partai", "politik",
+                    # Makanan (non-kampus)
+                    "makan", "resto", "restoran", "kuliner", "menu", "warung",
+                    # Teknologi umum (bukan untuk akademik)
+                    "smartphone", "hp merek", "game mobile",
+                    # Kesehatan umum
+                    "dokter", "sakit", "obat", "rumah sakit",
+                    # Lain-lain
+                    "travel", "liburan", "wisata", "hobi"
+                ]
+                text_lower = text.lower()
+                return any(keyword in text_lower for keyword in non_academic_keywords)
 
             # --- A. FITUR SCRAPER (Via Chat) ---
             if "berita" in user_input.lower() or "news" in user_input.lower():
@@ -209,15 +232,26 @@ def get_response(request):
             elif _is_profanity(user_input):
                 response_text = "Mohon maaf, saya tidak dapat merespons pesan yang tidak sopan. Mari kita berkomunikasi dengan baik-baik 🙏"
             
+            # --- E. FILTER NON-ACADEMIC QUESTIONS ---
+            elif _is_non_academic(user_input):
+                response_text = """<b>Maaf, saya hanya bisa membantu pertanyaan seputar akademik dan kampus UDINUS 🎓</b><br><br>
+Silakan tanya tentang:<br>
+📚 Pendaftaran mahasiswa baru (PMB)<br>
+💰 Pembayaran UKT/SPP<br>
+📖 Jadwal kuliah & KRS<br>
+🎓 Beasiswa & bantuan pendidikan<br>
+🏛️ Fasilitas kampus (perpustakaan, lab, dll)<br>
+👨‍🏫 Informasi dosen dan fakultas"""
+            
             # --- C. FITUR SUMMARIZER (Manual Command) ---
             elif user_input.lower().startswith("ringkas"):
                 teks = user_input.replace("ringkas", "").strip()
                 if ringkas_teks_sederhana:
                     hasil = ringkas_teks_sederhana(teks, max_sentences=3)
 
-            # --- C. FITUR PENCARIAN BEBAS (SEARCH) ---
+            # --- D. FITUR PENCARIAN BEBAS (SEARCH) ---
             # Jika user mengetik "Cari info..."
-            if user_input.lower().startswith("cari") or user_input.lower().startswith("search"):
+            elif user_input.lower().startswith("cari") or user_input.lower().startswith("search"):
                 keyword = user_input.replace("cari", "").replace("search", "").strip()
                 
                 if cari_dokumen_relevan:
