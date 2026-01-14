@@ -115,29 +115,6 @@ python src/kmeans_cluster.py
 python notebooks/Sentiment_Analysis_Training.py
 ```
 
----
-
-## ✅ Semua Requirement TERPENUHI
-
-### SOAL 02 - K-NN (20%) ✅
-- Dataset: Intent classification
-- Model: 93% accuracy
-- Files: `src/knn_classifier.py`, `app/classify.py`
-
-### SOAL 03 - K-Means (15%) ✅
-- Dataset: 166 documents, 7 clusters
-- Files: `src/kmeans_cluster.py`, `app/cluster.py`
-
-### SOAL 04 - Feature + Summary (25%) ✅
-- Chi-square, Mutual Info, TF-IDF
-- Extractive summarization
-- Files: `src/feature_selection.py`, `src/summarizer.py`
-
-### SOAL 05 - Sentiment (25%) ✅✅
-- Dataset: 12,260 samples (>> requirement)
-- Model: IndoBERT 93.9% (>> baseline)
-- File: `src/sentiment.py`
-
 ## 🚀 Quick Start
 
 ### Demo Scripts
