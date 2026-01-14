@@ -286,23 +286,34 @@ Silakan tanya tentang:<br>
 
                     # --- GROQ LLM INTEGRATION ---
                     if groq_service and groq_service.client:
-                        # Use Groq to generate human-like response with sentiment awareness
-                        groq_response = groq_service.generate_contextual_response(
-                            user_query=user_input,
-                            clustered_docs=docs,
-                            intent=niat,
-                            user_sentiment=user_sentiment
-                        )
-                        
-                        response_text = f"<b>[Topik: {niat}]</b><br><br>"
-                        response_text += f"🤖 {groq_response}"
-                        
-                        # Add feature keywords if available
-                        if use_summarization and ringkas_dokumen and docs:
-                            _, features = ringkas_dokumen(docs, max_sentences=3, return_features=True)
-                            if features:
-                                top_keywords = ", ".join([f.replace("_", " ") for f, score in features[:5]])
-                                response_text += f"<br><br><i>🔑 Kata kunci: {top_keywords}</i>"
+                        # Check if summarization is enabled
+                        if use_summarization:
+                            # Use Groq with summarized context (top 3 docs)
+                            groq_response = groq_service.generate_contextual_response(
+                                user_query=user_input,
+                                clustered_docs=docs[:3],  # Only top 3 for summary
+                                intent=niat,
+                                user_sentiment=user_sentiment
+                            )
+                            
+                            response_text = f"<b>[Topik: {niat}]</b><br><br>"
+                            response_text += f"🤖 {groq_response}"
+                            
+                            # Add feature keywords if available
+                            if ringkas_dokumen and docs:
+                                _, features = ringkas_dokumen(docs, max_sentences=3, return_features=True)
+                                if features:
+                                    top_keywords = ", ".join([f.replace("_", " ") for f, score in features[:5]])
+                                    response_text += f"<br><br><i>🔑 Kata kunci: {top_keywords}</i>"
+                        else:
+                            # Summarization OFF - show all documents without Groq
+                            response_text = f"<b>[Topik: {niat}]</b><br>"
+                            response_text += "<b>📚 Informasi Lengkap (Tanpa Ringkasan):</b><br><br>"
+                            for i, d in enumerate(docs[:5], 1):
+                                response_text += f"<b>{i}.</b> {d}<br><br>"
+                            
+                            if len(docs) > 5:
+                                response_text += f"<i>...dan {len(docs)-5} dokumen lainnya</i>"
                     
                     else:
                         # Fallback to original method if Groq not available
